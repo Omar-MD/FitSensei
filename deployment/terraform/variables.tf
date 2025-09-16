@@ -15,7 +15,7 @@
 variable "project_name" {
   type        = string
   description = "Project name used as a base for resource naming"
-  default     = "fitsensei"
+  default     = "fitsensei-agent"
 }
 
 variable "prod_project_id" {
