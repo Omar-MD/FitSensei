@@ -1,19 +1,7 @@
-# Project name used for resource naming
-project_name = "fitsensei"
-
-# Your Production Google Cloud project id
-prod_project_id = "your-production-project-id"
-
-# Your Staging / Test Google Cloud project id
-staging_project_id = "your-staging-project-id"
-
-# Your Google Cloud project ID that will be used to host the Cloud Build pipelines.
-cicd_runner_project_id = "your-cicd-project-id"
-
-# Name of the repository you added to Cloud Build
-repository_name = "fitsensei"
-
-# The Google Cloud region you will use to deploy the infrastructure
+staging_project_id = "qwiklabs-gcp-01-0feccb115029"
+prod_project_id = "qwiklabs-gcp-03-f299ed98bf65"
+cicd_runner_project_id = "qwiklabs-gcp-03-f299ed98bf65"
 region = "us-central1"
-
-repository_owner = "Your GitHub organization or username."
+repository_name = "fitsensei"
+repository_owner = "Omar-MD"
+create_repository = false
